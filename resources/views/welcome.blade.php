@@ -2,7 +2,7 @@
 <html lang="{{ app()->getLocale() }}">
 <head>
     <meta name="csrf-token" content="{{ csrf_token() }}">
-    <link rel='stylesheet prefetch' href='//cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css'>
+    <link rel='stylesheet prefetch' href='{{asset('css/app.css')}}'/>
 </head>
 <body>
 <div id="app">
